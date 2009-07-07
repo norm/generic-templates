@@ -1,0 +1,5 @@
+<r3:include path="feed_global_title.atom"   />
+<r3:include path="feed_global_link.atom"    />
+<r3:include path="feed_global_id.atom"      />
+<r3:include path="feed_global_updated.atom" />
+<r3:include path="feed_global_author.atom"  />

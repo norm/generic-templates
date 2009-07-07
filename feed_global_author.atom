@@ -1,0 +1,9 @@
+<r3:comment>
+    Specialise and include the author details.
+    
+    eg:
+    <author>
+        <name>Mark Norman Francis</name>
+        <uri>http://marknormanfrancis.com/</uri>
+    </author>
+</r3:comment>

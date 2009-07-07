@@ -1,0 +1,9 @@
+<r3:comment>
+    The main templates used to render the output Atom. 
+    
+    This template should contain nothing but includes.
+</r3:comment>
+<r3:include path="preamble.html"    />
+<r3:include path="xml_version.atom" />
+<r3:include path="feed.atom"        />
+<r3:include path="postamble.html"   />

@@ -1,0 +1,6 @@
+<r3:comment>
+    Specialise and include the <updated> element containing the date of the
+    last time the feed was updated.
+    
+    <updated>XXX</updated>
+</r3:comment>

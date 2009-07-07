@@ -1,0 +1,8 @@
+<r3:comment> 
+    Specialise this and include the relevant links.
+    
+    eg:
+    <link rel="alternate" href="http://marknormanfrancis.com/" />
+    <link rel="self" type="application/atom+xml" href="http://marknormanfrancis.com/feed/" />
+
+</r3:comment>

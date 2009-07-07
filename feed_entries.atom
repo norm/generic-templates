@@ -1,0 +1,12 @@
+<r3:comment>
+    Specialise and include the code for the individual entries.
+    
+    eg:
+    <entry>
+        <title type='text'>${title}</title>
+        <link rel="alternate" href="${article}" />
+        <id>http://${host}${article}</id>
+        <updated>${iso8601}</updated>
+        <content type='html'>$contents</content>
+    </entry>
+</r3:comment>

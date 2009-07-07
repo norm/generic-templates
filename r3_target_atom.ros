@@ -1,0 +1,6 @@
+<r3:comment>
+    The base template for most common Atom targets.
+</r3:comment>
+<r3:include path="r3_internal_routines.ros" />
+<r3:include path="r3_fetch_page_data.ros"   />
+<r3:include path="r3_render_output.atom"    />
