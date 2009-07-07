@@ -1,0 +1,4 @@
+<r3:comment>
+    Any code required to fetch the page's data that is performed at 
+    template-compile time, and not in the final output (except as a value).
+</r3:comment>

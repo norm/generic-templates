@@ -24,4 +24,22 @@ Naming scheme
     *   The default HTML template is named `r3_target_html.ros`.
     *   The default Atom template is named `r3_target_atom.ros`.
 
+*   A lightweight namespacing scheme is used in the scaffolding templates
+    (those that build the main sections of a rendered document). This is done
+    by prefixing the filename with the main section it is in, for example
+    `head_meta_keywords.html` indicates that this is within the `head` 
+    element, and is a sub-template of the `head_meta.html` template.
+    
+    This technique is abandoned very quickly within the `body` area of HTML
+    however, as this would result in incredibly lengthy filenames. For the
+    most part, prefixes are kept to one level, so for example:
+    *   `body.html` includes `body_footer.html`
+    *   `body_footer.html` includes `footer_legal.html`
+    *   `footer_legal.html` includes `legal_copyright.html`
+    
+    Once the progression to actual site content is made, any attempt at
+    consistent naming scheme is then abandoned and left as an exercise to the
+    site authors.
+
+
 [r3]:http://developer.yahoo.com/r3/
